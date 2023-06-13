@@ -1,58 +1,32 @@
-# RPG Game
-In this exercise, you will develop a hero RPG (*Role Playing Game*) using all of the cool new python knowledge you've acquired. This game will be created using **Object Oriented Programming**.
-
-The game starts off with 2 characters: a `hero` and a `goblin`. Each character will be given a starting health and starting value. 
-
-Each character also has a power that can be used to attack their opponent. In the initial scenario, the `hero's` opponent is the `goblin`, and the `goblin's` opponent is the `hero`.
-
-When either character attacks his/her opponent, the opponent's health will decrease by the amount of power of the attacking character.
-
-For example
->
->If the hero starts off with the following: 
->
->- health = 9
->- power = 4
->
->And the `goblin` starts off with the following:  
->
->- health = 7
->- power = 3
->
->Then when the hero attacks the goblin, the goblin's health will decrease by 4.
->
->The result of goblin's health after being attacked
->
->- health = 3  ==> (7 - 4)
->- power = 3
->
-
-Run following command to clone this repository onto your local computer
-
-1. Clone this repository: `git clone https://github.com/DigitalCraftsStudents/python-rpg-starter.git`
-2. `cd js-hw-rpg`
-3. `git init`
-4. `git add`
-5. `git commit -m 'rpg game'`
-6. Create a new repository *without* a README in **your** github account
-7. Follow the instructions to connect and push your local repo to your remote repository 
-    - `git remote remove origin`
-    - `git remote add origin [url of your repo]`
-    - `git push --set-upstream origin main`
+# RPG Game 
+<img src="https://github.com/Hendersonkelly/js-hw-oop-rpg/assets/126027193/736ae2ae-af0e-462c-a786-c4ccd85cc27e" alt="Image description" width="300" height="200">
 
 
-Use `hero_rpg.js`, located in this repository, as a starting point for your game.
+# About the Project:
+Our class was assigned to build a hero RPG (*Role Playing Game*) using the newly learned javascript knowledge we had acquired using **Object Oriented Programming**. As a Disney adult, I based my characters and stories on Disney characters. The game begins with Ellie (from UP) with health points and balloons (currency) and she is on an adventure  "in the great wide somewhere". Along the way she meets a total of 5 villains, she must fight and defeat using a series of attack actions or a weapon bought from the fantasy CostCo.
 
-As you complete each step, commit, push, and tag the final working version. In the future we'll base a refactor off of one the steps.
 
-## RPG Game Part 1
+![image](https://github.com/Hendersonkelly/js-hw-oop-rpg/assets/126027193/b94642d3-dc5f-431b-a0d6-137cfd7cc550)
 
-Follow the link below to continue building new characters with new abilities to your game.
 
-- [RPG Part 1](./RPG-Part1.md)
+# Built With:
+- JavaScript
+- Object Oriented Programming
 
-## RPG Game Part 2
+# Learning and Challenges:
+I truly enjoyed this project. I had fun with the weapon items and the subtle references to Disney movies along the way. Storytelling is important in a game that is all done in the terminal without the use of HTML and CSS to support your meaning.
 
-Follow the link below to continue building new characters with new abilities to your game.
+![image](https://github.com/Hendersonkelly/js-hw-oop-rpg/assets/126027193/dfc1806c-42da-482d-9b7f-81b67cd08931)
 
-- [RPG Part 2](./RPG-Part2.md)
+
+Challenges came as this was our first real project. The most difficult portion that allowed me to grow the most was keeping up with the hero's inventory and their ability to change it. 
+
+![image](https://github.com/Hendersonkelly/js-hw-oop-rpg/assets/126027193/8de45a60-35d3-4ed7-9861-19ddf7e342c9)
+
+
+# How to Play:
+You must clone the repo and play it through your terminal window to play the game. Once it is cloned you will start and follow the prompts given. You will have access to your health information after and during every battle and you will have access to the number of balloons you have collected at the end of a fight. After completing every fight you will be given the option to go to the store to purchase weapons. You will get an opportunity to use these weapons as the fight begins and during the fight to aid your victory. 
+![image](https://github.com/Hendersonkelly/js-hw-oop-rpg/assets/126027193/649f9186-5b8a-4db8-bd61-cff71100409d)
+
+
+
